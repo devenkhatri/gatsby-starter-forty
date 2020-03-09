@@ -1,10 +1,18 @@
 ---
+title: Homepage
 banner:
   heading: 'Hi, my name is Agency'
   subheading: >-
     USING A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP AND RELEASED UNDER THE
     CREATIVE COMMONS.
   bgimage: /assets/img-600-400.png
+services:
+  - item: Content Management System
+  - item: Digital Experience Platform
+  - item: Open Source Accelerators
+  - item: Content Migration Services
+  - item: DevOps Automation
+  - item: Business Process Management
 main:
   heading: Massa libero
   description: >-
@@ -14,11 +22,4 @@ main:
     lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat
     tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc
     rhoncus amet pharetra et feugiat tempus.
-services:
-  - item: Content Management System
-  - item: Digital Experience Platform
-  - item: Open Source Accelerators
-  - item: Content Migration Services
-  - item: DevOps Automation
-  - item: Business Process Management
 ---
