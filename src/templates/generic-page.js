@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import Layout from '../components/Layout'
 
 import pic11 from '../assets/images/pic11.jpg'

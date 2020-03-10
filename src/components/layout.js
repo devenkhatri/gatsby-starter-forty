@@ -5,7 +5,7 @@ import '../assets/scss/main.scss'
 import Header from './Header'
 import Menu from './Menu'
 import Contact from './Contact'
-import Footer from './Footer'
+import Footer from './Footer' 
 
 class Layout extends React.Component {
     constructor(props) {
