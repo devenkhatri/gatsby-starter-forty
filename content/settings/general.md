@@ -16,7 +16,7 @@ contact:
   email: contactus@oursite.com
   phone: '9898989898'
 footer:
-  copyright: Copyright our site
+  copyright: Copyright of our site
   socialicons:
     - iconclass: fa-twitter
       iconurl: www.twitter.com
