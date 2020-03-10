@@ -6,6 +6,12 @@ banner:
     USING A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP AND RELEASED UNDER THE
     CREATIVE COMMONS.
   bgimage: /assets/img-600-400.png
+services:
+  - heading: Content Management System
+    subheading: Content Management System
+    image: /assets/img-600-400-purple.png
+    linktext: Content Management System
+    linkurl: /service/conent-management-system
 intro:
   heading: Massa libero
   description: >-
