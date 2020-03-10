@@ -18,6 +18,10 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 Run `gatsby develop` in the terminal to start the dev site.
 
+## Icon Generated from
+
+https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=graphic_eq&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgb(255%2C%20255%2C%20255)&backColor=rgb(0%2C%20150%2C%20136)&crop=0&backgroundShape=square&effects=none&name=icon
+
 ## CSS Grid
 
 The grid on this site was replaced with a custom version, built using CSS Grid. It's a very simple 12 column grid that is disabled on mobile. To start using the grid, wrap the desired items with `grid-wrapper`. Items inside the `grid-wrapper` use the class `col-` followed by a number, which should add up to 12.
