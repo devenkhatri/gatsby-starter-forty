@@ -14,6 +14,10 @@ import pic06 from '../assets/images/pic06.jpg'
 class HomeIndex extends React.Component {
     render() {
 
+        const data = this.props.data.allFile.edges;
+
+        console.log(data)
+
         return (
             <Layout>
                 <Helmet
@@ -91,3 +95,31 @@ class HomeIndex extends React.Component {
 }
 
 export default HomeIndex
+
+export const pageQuery = graphql`
+  query {
+    allFile(filter: {sourceInstanceName: {eq: "fixedpage"}, relativePath: {eq: "index.md"}, relativeDirectory: {eq: ""}}) {
+      edges {
+        node {
+          childMarkdownRemark {
+            frontmatter {
+              banner {
+                bgimage
+                heading
+                subheading
+              }
+              services {
+                item
+              }
+              main {
+                description
+                heading
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+`

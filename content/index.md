@@ -6,14 +6,7 @@ banner:
     USING A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP AND RELEASED UNDER THE
     CREATIVE COMMONS.
   bgimage: /assets/img-600-400.png
-services:
-  - item: Content Management System
-  - item: Digital Experience Platform
-  - item: Open Source Accelerators
-  - item: Content Migration Services
-  - item: DevOps Automation
-  - item: Business Process Management
-main:
+intro:
   heading: Massa libero
   description: >-
     Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.

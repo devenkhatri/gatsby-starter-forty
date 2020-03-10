@@ -20,6 +20,42 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-netlify-cms',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/siteglobals`,
+        name: `siteglobals`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/service`,
+        name: `service`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/autopage`,
+        name: `autopage`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content`,
+        name: `fixedpage`,
+      },
+    },
+    `gatsby-transformer-remark`,
     'gatsby-plugin-offline'
   ],
 }
