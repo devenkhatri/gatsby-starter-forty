@@ -108,10 +108,7 @@ export const pageQuery = graphql`
                 heading
                 subheading
               }
-              services {
-                item
-              }
-              main {
+              intro {
                 description
                 heading
               }
