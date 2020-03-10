@@ -4,15 +4,15 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form id="jamstack-contact-form" action="" method="post" role="form" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form id="jamstack-contact-form" method="post" role="form" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="jamstack-" />
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" />
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required />
                     </div>
                     <div className="field half">
                         <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" />
+                        <input type="text" name="email" id="email" placeholder="Enter email" required />
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
