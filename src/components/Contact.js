@@ -4,7 +4,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form id="jamstack-contact-form" method="post" role="form" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form id="jamstack-contact-form" action="/contact-email-success-page" method="post" role="form" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="jamstack-" />
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
