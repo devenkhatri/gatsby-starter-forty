@@ -9,7 +9,7 @@ banner:
 services:
   - heading: Content Management System
     subheading: Content Management System is full form of CMS
-    image: /assets/img-600-400-purple.png
+    image: /assets/img-600-400-green.png
     linktext: Content Management System
     linkurl: /service/content-management-system
 intro:
