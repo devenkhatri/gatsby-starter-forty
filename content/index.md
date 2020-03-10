@@ -3,8 +3,8 @@ title: Homepage
 banner:
   heading: 'Hi, my name is Agency'
   subheading: >-
-    USING A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP AND RELEASED UNDER THE
-    CREATIVE COMMONS.
+    USING A RESPONSIVE SITE TEMPLATE <br/>DESIGNED BY HTML5 UP AND RELEASED
+    UNDER THE CREATIVE COMMONS.
   bgimage: /assets/img-600-400.png
 services:
   - heading: Content Management System
