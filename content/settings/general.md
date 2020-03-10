@@ -1,6 +1,13 @@
 ---
 title: FORTY
 subtitle: AGENCY
+menu:
+  - text: Home
+    url: /
+  - text: Privacy
+    url: /privacy-policy
+  - text: About Us
+    url: /aboutus
 contact:
   address: |-
     1234 Somewhere Road #5432
@@ -10,4 +17,7 @@ contact:
   phone: '9898989898'
 footer:
   copyright: Copyright our site
+  socialicons:
+    - iconclass: fa-twitter
+      iconurl: www.twitter.com
 ---
