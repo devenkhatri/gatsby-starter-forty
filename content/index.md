@@ -8,10 +8,10 @@ banner:
   bgimage: /assets/img-600-400.png
 services:
   - heading: Content Management System
-    subheading: Content Management System
+    subheading: Content Management System is full form of CMS
     image: /assets/img-600-400-purple.png
     linktext: Content Management System
-    linkurl: /service/conent-management-system
+    linkurl: /service/content-management-system
 intro:
   heading: Massa libero
   description: >-
