@@ -5,7 +5,7 @@ banner:
   subheading: >-
     USING A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP AND RELEASED UNDER THE
     CREATIVE COMMONS.
-  bgimage: /assets/img-600-400.png
+  bgimage: /assets/img-600-400-purple.png
 services:
   - heading: Content Management System
     subheading: Content Management System is full form of CMS
