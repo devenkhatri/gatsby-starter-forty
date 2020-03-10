@@ -23,13 +23,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/siteglobals`,
-        name: `siteglobals`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         path: `${__dirname}/content/service`,
         name: `service`,
       },
@@ -39,6 +32,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/autopage`,
         name: `autopage`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/settings`,
+        name: `settings`,
       },
     },
     {

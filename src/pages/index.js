@@ -7,7 +7,7 @@ import Banner from '../components/Banner'
 class HomeIndex extends React.Component {
     render() {
 
-        const node = this.props.data.allFile.edges[0].node;
+        const node = this.props.data.file;
 
         return (
             <Layout>
@@ -54,9 +54,7 @@ export default HomeIndex
 
 export const pageQuery = graphql`
   query {
-    allFile(filter: {sourceInstanceName: {eq: "fixedpage"}, relativePath: {eq: "index.md"}, relativeDirectory: {eq: ""}}) {
-      edges {
-        node {
+    file(sourceInstanceName: {eq: "fixedpage"}, relativePath: {eq: "index.md"}, relativeDirectory: {eq: ""}) {    
           childMarkdownRemark {
             frontmatter {
                 banner {
@@ -78,8 +76,5 @@ export const pageQuery = graphql`
             }
           }
         }
-      }
-    }
-  }
-  
+  } 
 `
