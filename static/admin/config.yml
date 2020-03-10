@@ -14,31 +14,21 @@ public_folder: /assets
 publish_mode: editorial_workflow
 
 collections:
-  - name: "siteglobals"
-    label: "Site Globals"
+  - name: "settings"
+    label: "Settings"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
     files: 
-      - file: "content/siteglobals/header.md"
-        label: "Header"
-        name: "header"
+      - file: "content/settings/general.md"
+        label: "Site Settings"
+        name: "general"
         fields:
-          - {label: "Site Title", name: "sitetitle", widget: "string"}
-          - {label: "Site SubTitle", name: "sitesubtitle", widget: "string"}
-          - {label: "Site Logo", name: "sitelogo", widget: "image", optional: true}
+          - {label: "Global Title", name: "title", widget: "string"}
+          - {label: "Global SubTitle", name: "subtitle", widget: "string"}
           - {label: "Menu", name: "menu", widget: "list", fields:[{label: Text, name: text, widget: string},{label: URL, name: text, widget: string}]}
-      - file: "content/siteglobals/contact.md"
-        label: "Contact"
-        name: "contact"
-        fields:
-          - {label: "Address", name: "address", widget: "text"}
-          - {label: "Email", name: "email", widget: "string"}
-          - {label: "Phone", name: "phone", widget: "string"}
-      - file: "content/siteglobals/footer.md"
-        label: "Footer"
-        name: "footer"
-        fields:
-          - {label: "Copyright", name: "copyright", widget: "string"}
-          - {label: "Footer Links", name: "footerlinks", widget: "list", fields: [{label: "Link Text", name: "linktext", widget: "string"},{label: "Link URL", name: "linkurl", widget: "string"}]}
-          - {label: "Social Icons", name: "socialicons", widget: "list", fields: [{label: "Icon Class", name: "iconclass", widget: "string"},{label: "Icon URL", name: "iconurl", widget: "string"}]}
+          - {label: "Contact Settings", name: "contact", widget: object, fields:[{label: "Address", name: "address", widget: "text"}, {label: "Email", name: "email", widget: "string"}, {label: "Phone", name: "phone", widget: "string"}]}
+          - {label: "Footer", name: "footer", widget: object, fields:[{label: "Copyright", name: "copyright", widget: "string"}, {label: "Footer Links", name: "footerlinks", widget: "list", fields: [{label: "Link Text", name: "linktext", widget: "string"},{label: "Link URL", name: "linkurl", widget: "string"}]}, {label: "Social Icons", name: "socialicons", widget: "list", fields: [{label: "Icon Class", name: "iconclass", widget: "string"},{label: "Icon URL", name: "iconurl", widget: "string"}]}]}
 
   - name: "fixedpages"
     label: "Fixed Pages"
