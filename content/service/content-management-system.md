@@ -32,7 +32,7 @@ sections:
       content management application (CMA), as the front-end user interface that
       allows a user, even with limited expertise, to add, modify, and remove
       content from a website without the intervention of
-      a[webmaster](https://en.wikipedia.org/wiki/Webmaster "Webmaster"); and a
+      a webmaster; and a
       content delivery application (CDA), that compiles the content and updates
       the website.
     subtitle: Structure
@@ -40,25 +40,11 @@ sections:
     subtitle: Common features
     image: /assets/img-600-400-purple.png
     description: >-
-      The core CMS features are; indexing; search and retrieval; format
-      management; revision control; and
-      management.[](https://en.wikipedia.org/wiki/Content_management_system#cite_note-8)
-
-
-      Features may vary depending on the system application but will typically
-      include:[](https://en.wikipedia.org/wiki/Content_management_system#cite_note-9)
-
+      
 
       * Intuitive indexing, search and retrieval features index all data for
       easy access through search functions and allow users to search by
       attributes such as publication dates, keywords or author.
-
-      * Format management facilitates turn scanned paper documents and legacy
-      electronic documents into HTML or PDF documents.
-
-      * Revision features allow content to be updated and edited after initial
-      publication. Revision control also tracks any changes made to files by
-      individuals.
 
       * Publishing functionality allows individuals to use a template or a set
       of templates approved by the organization, as well as wizards and other
@@ -67,17 +53,14 @@ sections:
     subtitle: Other types of content management systems
     image: /assets/img-600-400-red.png
     description: >-
-      [Digital asset management
-      systems](https://en.wikipedia.org/wiki/Digital_asset_management "Digital
-      asset management")are another type of CMS. They manage content with
+      Digital asset management
+      systems are another type of CMS. They manage content with
       clearly defined author or ownership, such as documents, movies, pictures,
-      phone numbers, and scientific data. Companies also use CMSs to store,
-      control, revise, and publish documentation.
+      etc.
 
 
-      There are also[component content management
-      systems](https://en.wikipedia.org/wiki/Component_content_management_system
-      "Component content management system")(CCMS), which are CMSs that manage
+      There are also component content management
+      systems(CCMS), which are CMSes that manage
       content at a modular level rather than as pages or articles. CCMSs are
       often used in technical communication where many publications reuse the
       same content.

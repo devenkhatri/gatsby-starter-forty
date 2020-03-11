@@ -41,7 +41,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: Banner, name: banner, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: SubHeading, name: subheading, widget: string}, {label: BackgroundImage, name: bgimage, widget: image}]}
           - {label: Services, name: services, widget: list, fields: [{label: Heading, name: heading, widget: string}, {label: SubHeading, name: subheading, widget: string}, {label: Image, name: image, widget: image}, {label: LinkText, name: linktext, widget: string}, {label: LinkURL, name: linkurl, widget: string}] }
-          - {label: "Intro Section", name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
+          - {label: "Intro Section", name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: markdown}]}
 
   - name: "service"
     label: "Service"
@@ -53,8 +53,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "text"}
       - {label: "Image", name: "image", widget: image}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Sections", name: sections, widget: list, fields: [{label: Title, name: title, widget: string}, {label: SubTitle, name: subtitle, widget: string},{label: Image, name: image, widget: image}, {label: Description, name: description, widget: text}]}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Sections", name: sections, widget: list, fields: [{label: Title, name: title, widget: string}, {label: SubTitle, name: subtitle, widget: string},{label: Image, name: image, widget: image}, {label: Description, name: description, widget: markdown}]}
 
   - name: "autopages"
     label: "Automatic Pages"

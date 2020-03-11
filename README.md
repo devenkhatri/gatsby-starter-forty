@@ -1,43 +1,53 @@
-# gatsby-starter-forty
+# JAMstack
+A [Gatsby v2](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org) powered generic business website.
 
-**This is a starter for Gatsby.js V2.**
+It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
-**The older V1 version of this starter can be found on the v1 branch**
-
-Gatsby.js V2 starter based on the Forty site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
-
-## Preview
-
-https://gatsby-forty.surge.sh
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-forty https://github.com/codebushi/gatsby-starter-forty`
-
-Run `gatsby develop` in the terminal to start the dev site.
+## Demo
+[JAMstack](https://code.devengoratela.com)
 
 ## Icon Generated from
 
 https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=graphic_eq&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgb(255%2C%20255%2C%20255)&backColor=rgb(0%2C%20150%2C%20136)&crop=0&backgroundShape=square&effects=none&name=icon
 
-## CSS Grid
+## Features
+* Complete Website Suite - Home Page, About Page, Category Page and Contact Page
+* Netlify CMS for Content Management
+* SEO Friendly (Sitemap, Schemas, Meta Tags, GTM etc)
+* Progressive Web App & Offline Support
+* Contact Form (Netlify Forms)
 
-The grid on this site was replaced with a custom version, built using CSS Grid. It's a very simple 12 column grid that is disabled on mobile. To start using the grid, wrap the desired items with `grid-wrapper`. Items inside the `grid-wrapper` use the class `col-` followed by a number, which should add up to 12.
+## Prerequisite
+* Node
+* Gatsby CLI (globally installed)
 
-Here is an example of using the grid, for a 3 column layout:
 
+## Available Scripts
+
+### Develop
+Start a hot-reloading development environment accessible at `localhost:8000`
+```shell
+npm start
 ```
-<div className="grid-wrapper">
-    <div className="col-4">
-        <p>Content Here</p>
-    </div>
-    <div className="col-4">
-        <p>Content Here</p>
-    </div>
-    <div className="col-4">
-        <p>Content Here</p>
-    </div>
-</div>
+
+### Build
+Get an optimized production build for your site generating static HTML and per-route JavaScript code bundles.
+```shell
+npm run build
 ```
+
+### Serve
+gatsby serve — Gatsby starts a local HTML server for testing your built site.
+```shell
+npm run serve
+```
+
+### Lint
+Lint the code according to eslintrc file, for consistency.
+```shell
+npm run lint
+```
+
+## Authentication
+
+You can read up on how to set up Identity(Authentication for CMS User) here [How To Set Up Netlify CMS](https://www.netlifycms.org/docs/add-to-your-site/)
