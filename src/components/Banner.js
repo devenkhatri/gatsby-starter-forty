@@ -2,10 +2,12 @@ import React from 'react'
 
 const Banner = props => {
   let styleName = 'style' + Math.floor(Math.random() * 6 + 1)
-  const heading = props.data.heading ? props.data.heading : 'Heading'
-  const subheading = props.data.subheading
-    ? props.data.subheading
-    : 'Short Description...'
+  const heading =
+    props && props.data && props.data.heading ? props.data.heading : 'Heading'
+  const subheading =
+    props && props.data && props.data.subheading
+      ? props.data.subheading
+      : 'Short Description...'
   return (
     <section id="banner" className="major">
       <div className="inner">

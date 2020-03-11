@@ -1,9 +1,13 @@
 import React from 'react'
 
-const BannerLanding = (props) => {
-    let styleName = "style"+(Math.floor(Math.random()*6+1))
-    const title = props.data.title ? props.data.title : "Heading"
-    const excerpt = props.data.excerpt ? props.data.excerpt : "Short Description..."
+const BannerLanding = props => {
+  let styleName = 'style' + Math.floor(Math.random() * 6 + 1)
+  const title =
+    props && props.data && props.data.title ? props.data.title : 'Heading'
+  const excerpt =
+    props && props.data && props.data.excerpt
+      ? props.data.excerpt
+      : 'Short Description...'
   return (
     <section id="banner" className={styleName}>
       <div className="inner">
