@@ -1,7 +1,7 @@
 ---
 templateKey: generic-page
 title: Privacy Policy
-image: /assets/banner-1200-250.png
+image: /assets/banner-1200-200.png
 ---
 #### Privacy
 
