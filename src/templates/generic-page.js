@@ -15,7 +15,7 @@ const GenericPage = ({ data }) => {
                         <header className="major">
                             <h1>{data.markdownRemark.frontmatter.title}</h1>
                         </header>
-                        <span className="image main"><img src={pic11} alt="" /></span>
+                        <span className="image main"><img src={data.markdownRemark.frontmatter.image} alt="" /></span>
                         <RenderMarkdownAsHTML className="blog-post-content" content={data.markdownRemark.html} />
                     </div>
                 </section>
