@@ -7,7 +7,7 @@ menu:
   - text: Privacy
     url: /privacy-policy
   - text: About Us
-    url: /aboutus
+    url: /about-us
 contact:
   address: |-
     1234 Somewhere Road #5432
