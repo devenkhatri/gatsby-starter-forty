@@ -3,12 +3,14 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import RenderMarkdownAsHTML from '../components/RenderMarkdownAsHTML'
 import BannerLanding from '../components/BannerLanding'
+import SEO from '../components/SEO'
 
 const ServicePage = ({ data }) => {
   const node = data.markdownRemark.frontmatter
 
   return (
     <Layout>
+      <SEO title={node.title} />
       <BannerLanding data={node} />
       <div id="main">
         <section id="one">

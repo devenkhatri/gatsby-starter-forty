@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
+import SEO from '../components/SEO'
 
 class HomeIndex extends React.Component {
     render() {
@@ -11,14 +12,7 @@ class HomeIndex extends React.Component {
 
         return (
             <Layout>
-                <Helmet
-                    title="Gatsby Starter - Forty"
-                    meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
-                    ]}
-                >
-                </Helmet>
+                <SEO title="Homepage" />
 
                 <Banner data={node.childMarkdownRemark.frontmatter.banner} />
 
