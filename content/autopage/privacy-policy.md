@@ -1,7 +1,7 @@
 ---
 templateKey: generic-page
 title: Privacy Policy
-image: ''
+image: content/assets/bg3.jpg
 ---
 #### Privacy
 
